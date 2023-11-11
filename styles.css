@@ -1,0 +1,60 @@
+/* Universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-header, .sec-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-header {
+    font-size: 40px;
+}
+
+.food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para, .list {
+    margin: 0 10%;
+}
+
+.para {
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.list-item, .mini-list-item {
+    margin: 10px 0;
+}
+
+.mini-list-item {
+    margin-left: 40px;
+}
+
+/* Adobada */
+
+.adobada {
+    color: red;
+}
+
+/* Birria */
+
+.birria {
+    color: #5C1916;
+}
+
+/* Pho */
+
+.pho {
+    color: #9B6F3B;
+}
