@@ -9,11 +9,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-.main-header, .sec-header {
-    text-align: center;
-    margin: 20px 0;
-}
-
 .main-header {
     font-size: 40px;
 }
@@ -24,27 +19,11 @@
     margin-right: auto;
 }
 
-.para, .list {
-    margin: 0 10%;
-}
-
-.para {
-    padding: 10px 0;
-    line-height: 30px;
-}
-
-.list-item, .mini-list-item {
-    margin: 10px 0;
-}
-
-.mini-list-item {
-    margin-left: 40px;
-}
-
 /* Index */
 
-#index {
-    background-color: #E7E1D4;
+#background {
+    background-color: #111827;
+    color: #E5E7EB;
 }
 
 .recipes-box {
@@ -97,7 +76,79 @@
     transform: translateY(0);
 }
 
-/* Adobada */
+/* Universal Recipe Pages */
+
+.banner, .banner-right {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    justify-content: space-between;
+    margin: 30px 10%;
+}
+
+.banner-right, .banner-right ul {
+    gap: 20px;
+}
+
+.banner-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.banner h1 {
+    font-size: 42px;
+}
+
+.banner li {
+    font-size: 18px;
+}
+
+.banner-list a:hover {
+    border-bottom: solid 1px #E5E7EB;
+}
+
+.banner-right button {
+    background-color: #829ab1;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 150px 10%;
+    gap: 80px;
+}
+
+.hero h1, .hero p, .page-section h2, .page-section p {
+    margin: 20px 0
+}
+
+.page-section {
+    padding-bottom: 80px;
+}
+
+.hero p, .page-section p, .page-section li {
+    line-height: 30px;
+}
+
+.mini-list-item {
+    margin-left: 40px;
+}
+
+.page-section {
+    margin: 0 10%;
+}
 
 .adobada {
     color: red;
